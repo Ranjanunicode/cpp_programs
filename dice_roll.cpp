@@ -1,3 +1,5 @@
+//code to role dice and coin n times..
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;

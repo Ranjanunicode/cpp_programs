@@ -1,3 +1,5 @@
+//pattern code
+
 #include <stdio.h>
 
 int main() {
@@ -20,3 +22,9 @@ int main() {
    }
    return 0;
 }
+
+//      Output
+//        A
+//       BAB
+//      BBABB
+//...

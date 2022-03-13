@@ -2,15 +2,15 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<malloc.h>
-// Prototypes
+// Prototypes of the function declared below and their data types.
 void insert_beg();
 void insert_end();
 void display();
 // Node type structure
 struct node
 {
-    int data;
-    struct node *link;
+    int data; // data 
+    struct node *link; // link to next node.
     
 };
 // Setting Start pointer to null

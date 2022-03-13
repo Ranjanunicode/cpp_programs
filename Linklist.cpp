@@ -45,6 +45,7 @@ int main() {
 void insert_beg()
 {
     struct node *temp;
+    // Using malloc for dynamic memory allocation
     temp=(struct node *)malloc(sizeof(struct node));
     printf("\nEnter a number : ");
     scanf(" %d",&temp->data);
@@ -62,6 +63,7 @@ void insert_beg()
 void insert_end()
 {
     struct node *temp,*top;
+    // Using malloc for dynamic memory allocation
     temp=(struct node *)malloc(sizeof(struct node));
     printf("\nEnter a number : ");
     scanf(" %d",&temp->data);

@@ -2,18 +2,21 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<malloc.h>
+// Prototypes
 void insert_beg();
 void insert_end();
 void display();
+// Node type structure
 struct node
 {
     int data;
     struct node *link;
     
 };
+// Setting Start pointer to null
 struct node *start=NULL;
 
-
+// Main function
 int main() {
    
     int a;
@@ -37,6 +40,8 @@ int main() {
     getch();
     return 0;
 }
+
+// Function to insert value at beginning
 void insert_beg()
 {
     struct node *temp;
@@ -52,6 +57,8 @@ void insert_beg()
         start=temp;
     }  
 }
+
+// Function to insert the value at the end
 void insert_end()
 {
     struct node *temp,*top;
@@ -72,6 +79,8 @@ void insert_end()
         temp=top;
     }  
 }
+
+// Function to display the link list
 void display()
 {
     struct node *top;

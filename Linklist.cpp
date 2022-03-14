@@ -1,3 +1,7 @@
+// *** LinkList implementation 
+// Insertion of the nodes from beginning and at the end.
+// Displaying the nodes with data and links to next node.
+
 #include <stdio.h>
 #include<conio.h>
 #include<stdlib.h>

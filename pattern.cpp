@@ -29,3 +29,5 @@ int main() {
 //       BAB
 //      BBABB
 //...
+
+//  Attached a Screenshot of the output in this repository.

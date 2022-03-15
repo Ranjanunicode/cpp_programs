@@ -2,9 +2,8 @@
 
 #include <iostream>
 using namespace std;
-
+// Main or root of the code
 int main() {
-    
     int n;
     cin>>n;// taking input
     
@@ -19,7 +18,5 @@ int main() {
     }else{
         cout<<n<<" is Not Palindrome";
     }
-    
-    
     return 0;
 }

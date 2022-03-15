@@ -1,5 +1,7 @@
+// Program to implement Queue data structure.
+// Also Called FIFO (First In First Out)
 #include <iostream>
-using namespace std; 
+tousing namespace std; 
 
 class Queue { 
     int size; 
@@ -41,8 +43,6 @@ class Queue {
             
      };
  };
-    //your code goes here
-    
 }; 
 
 int main() { 
@@ -58,3 +58,10 @@ int main() {
 
     return 0; 
 } 
+
+
+// Output
+// 42 <- 2 <- 8 <- 1 <-
+// 2 <- 8 <- 1 <- 128 <-
+// 1 <- 128 <-
+

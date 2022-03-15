@@ -3,6 +3,7 @@
 #include <iostream>
 tousing namespace std; 
 
+// Creating class Queue
 class Queue { 
     int size; 
     int* queue; 
@@ -12,6 +13,7 @@ class Queue {
         size = 0;
         queue = new int[100];
     }
+    // Method to remove data from Queue
     void remove() { 
         if (size == 0) { 
             cout << "Queue is empty"<<endl; 
@@ -24,6 +26,7 @@ class Queue {
             size--; 
         } 
     } 
+    // Method to display data of Queue
     void print() { 
         if (size == 0) { 
             cout << "Queue is empty"<<endl; 
@@ -34,13 +37,13 @@ class Queue {
         } 
         cout <<endl;
     }
- void add(int val){
-     if(size == 100-1){
-         cout<< "Queue is full"<<endl;
-     }else{
+    // Method to Add data to Queue
+    void add(int val){
+        if(size == 100-1){
+             cout<< "Queue is full"<<endl;
+        }else{
              queue[size] = val;
              size++;
-            
      };
  };
 }; 

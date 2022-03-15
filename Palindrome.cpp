@@ -5,9 +5,10 @@ using namespace std;
 // Main or root of the code
 int main() {
     int n;
-    cin>>n;// taking input
+    cin>>n;
     
     int rev=0,temp=n; 
+   
     while(temp>0){
         // If input is not 0 then
         rev = (rev*10)+(temp%10);

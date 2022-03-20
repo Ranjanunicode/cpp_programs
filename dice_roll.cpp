@@ -1,4 +1,5 @@
 //code to role dice and coin n times..
+// Simple use of for loop
 
 #include <iostream>
 #include <cstdlib>
@@ -15,4 +16,5 @@ int main () {
     }
 }
 
+// For loop implementation
 // code to role a dice and coin

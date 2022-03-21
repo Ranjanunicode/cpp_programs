@@ -1,6 +1,6 @@
 // Basic code for printing star patterns
 
-#include <stdio.h>
+#include <stdio.h> // importing standard input and output Library
 
 int main() 
 {  
@@ -10,7 +10,6 @@ int main()
     {
           for(j=0;j<b;j++)
                  printf("  ");
-         
           b++;
           for(j=1;j<=i;j++)   
                  printf (" * ");

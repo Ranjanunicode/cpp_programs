@@ -1,8 +1,10 @@
+// Basic code for printing star patterns
+
 #include <stdio.h>
 
 int main() 
 {  
-
+    // Initialisation of variables
     int i,j,b=0;
     for(i=6;i>0;i--)
     {
@@ -15,3 +17,10 @@ int main()
           printf ("\n");
     }
 }
+
+
+// Output
+// *******
+//  *****
+//   ***
+//    *

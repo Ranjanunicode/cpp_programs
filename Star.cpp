@@ -20,8 +20,9 @@ int main()
 // Implementing for loop for patterns
 
 
-// Output
-// *******
-//  *****
-//   ***
-//    *
+// Output :
+
+// * * * * * * *
+//  * * * * *
+//   * * *
+//     *

@@ -1,5 +1,5 @@
 // Basic code for printing star patterns
-
+// #include <conio.h>
 #include <stdio.h> // importing standard input and output Library
 
 int main() 

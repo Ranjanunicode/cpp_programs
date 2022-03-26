@@ -1,6 +1,7 @@
 //pattern code
 
 #include <stdio.h>
+//#include <conio.h>
 
 int main() {
    int i, space, rows, k = 0;

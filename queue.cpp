@@ -1,5 +1,6 @@
 // Program to implement Queue data structure.
 // Also Called FIFO (First In First Out)
+//
 #include <iostream>
 tousing namespace std; 
 
